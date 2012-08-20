@@ -52,7 +52,7 @@ hi Label           guifg=#E6DB74               gui=none
 hi Macro           guifg=#C4BE89               gui=italic
 hi SpecialKey      guifg=#66D9EF               gui=italic
 
-hi MatchParen      guifg=#000000 guibg=#FD971F gui=bold
+hi MatchParen      guibg=#000000 guifg=#FD971F gui=bold
 hi ModeMsg         guifg=#E6DB74
 hi MoreMsg         guifg=#E6DB74
 hi Operator        guifg=#F92672
@@ -71,7 +71,7 @@ hi Search          guifg=#FFFFFF guibg=#455354
 " marks column
 hi SignColumn      guifg=#A6E22E guibg=#232526
 hi SpecialChar     guifg=#F92672               gui=bold
-hi SpecialComment  guifg=#465457               gui=bold
+hi SpecialComment  guifg=#6E858A               gui=bold
 hi Special         guifg=#66D9EF guibg=bg      gui=italic
 hi SpecialKey      guifg=#888A85               gui=italic
 if has("spell")
@@ -100,11 +100,11 @@ hi WarningMsg      guifg=#FFFFFF guibg=#333333 gui=bold
 hi WildMenu        guifg=#66D9EF guibg=#000000
 
  hi Normal          guifg=#F8F8F2 guibg=#1B1D1E
- hi Comment         guifg=#465457
+ hi Comment         guifg=#6E858A
  hi CursorLine                    guibg=#293739
  hi CursorColumn                  guibg=#293739
  hi LineNr          guifg=#BCBCBC guibg=#232526
- hi NonText         guifg=#BCBCBC guibg=#232526
+ hi NonText         term=reverse guifg=#3C4143
 
 "
 " Support for 256-color terminal
